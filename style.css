@@ -1,21 +1,24 @@
 body {
-    background-color: #111;
+    background-color: #000;
     color: #fff;
     font-family: Arial, sans-serif;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
     margin: 0;
 }
 
 .video-container {
-    max-width: 400px;
+    width: 100%;
+    max-width: 360px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 video {
     width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.7);
 }
 
